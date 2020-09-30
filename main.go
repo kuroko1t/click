@@ -12,7 +12,5 @@ func main() {
 		robotgo.TypeStr("あい")
 		time.Sleep(time.Second * 10)
 		robotgo.KeyTap("enter")
-		time.Sleep(time.Second * 10)
-		robotgo.KeyTap("enter")
 	}
 }
